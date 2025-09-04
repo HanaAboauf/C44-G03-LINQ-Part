@@ -1,6 +1,8 @@
-﻿using System.Runtime.Intrinsics.Arm;
+﻿using Linq_01.Data;
+using System.Runtime.Intrinsics.Arm;
 using System.Threading;
 using static Linq_01.Data.ListGenerator;
+using static Linq_01.Data.Order;
 namespace Linq_01
 {
     internal class Program
@@ -187,10 +189,29 @@ namespace Linq_01
             //var result= numbersA.SelectMany(a=>numbersB.Where(b=>a<b),(a,b)=>$"{a} is less than {b}");
 
             //foreach (var item in result)
-            
+
             //    Console.WriteLine(item);
-                
-            
+
+
+
+
+
+            #endregion
+
+            #region Question06
+
+
+            var results= from c in CustomerList
+                         from o in c.Orders
+                         where o.Total > 500
+                         select new
+                         {
+                             c.CustomerID,
+                             o.OrderID,
+                             o.Total
+                         };
+            foreach (var Item in results ?? Enumerable.Empty<object>())
+                Console.WriteLine(Item);
 
 
 
