@@ -1,4 +1,6 @@
-﻿using static Linq_01.Data.ListGenerator;
+﻿using System.Runtime.Intrinsics.Arm;
+using System.Threading;
+using static Linq_01.Data.ListGenerator;
 namespace Linq_01
 {
     internal class Program
@@ -73,6 +75,12 @@ namespace Linq_01
 
             #endregion
 
+            #region Question04
+
+            //string[] Arr = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+
+            //var results = Arr.OrderBy(s => s.Length).ThenBy(s => s);
+            #endregion
             #endregion
         }
     }
