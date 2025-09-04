@@ -81,6 +81,16 @@ namespace Linq_01
 
             //var results = Arr.OrderBy(s => s.Length).ThenBy(s => s);
             #endregion
+
+            #region Question05
+
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            //var results = Arr.OrderBy(s => s.Length).ThenBy(s=>s,StringComparer.OrdinalIgnoreCase);
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
+            #endregion
+
             #endregion
         }
     }
