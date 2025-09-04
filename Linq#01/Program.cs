@@ -41,7 +41,7 @@ namespace Linq_01
 
             #region Question01
 
-        
+
 
             //var results= from p in ProductList
             //             orderby p.ProductName
@@ -50,6 +50,16 @@ namespace Linq_01
             //    Console.WriteLine(Item);
 
 
+            #endregion
+
+            #region Question02
+
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            //var results = Arr.OrderBy(s => s, StringComparer.OrdinalIgnoreCase);
+
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
             #endregion
 
             #endregion
