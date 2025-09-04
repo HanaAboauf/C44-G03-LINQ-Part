@@ -153,6 +153,20 @@ namespace Linq_01
 
             #endregion
 
+            #region Question03
+
+            //var results = from p in ProductList
+            //                select new
+            //                {
+            //                    p.ProductName,
+            //                    p.Category,
+            //                    Price = p.UnitPrice
+            //                };
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
+
+            #endregion
+
             #endregion
         }
     }
