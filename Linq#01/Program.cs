@@ -201,19 +201,34 @@ namespace Linq_01
             #region Question06
 
 
-            var results= from c in CustomerList
-                         from o in c.Orders
-                         where o.Total > 500
-                         select new
-                         {
-                             c.CustomerID,
-                             o.OrderID,
-                             o.Total
-                         };
-            foreach (var Item in results ?? Enumerable.Empty<object>())
-                Console.WriteLine(Item);
+            //var results= from c in CustomerList
+            //             from o in c.Orders
+            //             where o.Total > 500
+            //             select new
+            //             {
+            //                 c.CustomerID,
+            //                 o.OrderID,
+            //                 o.Total
+            //             };
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
 
 
+
+            #endregion
+
+            #region Question07
+
+            //var results =
+            //    from c in CustomerList
+            //    from o in c.Orders ?? Enumerable.Empty<Order>()
+            //    where o.OrderDate >= new DateTime(1998, 1, 1)
+            //    select new
+            //    {
+            //        c.CustomerID,
+            //        o.OrderID,
+            //        o.OrderDate
+            //    };
 
             #endregion
 
