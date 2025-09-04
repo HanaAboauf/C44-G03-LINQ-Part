@@ -114,6 +114,17 @@ namespace Linq_01
             //    Console.WriteLine(Item);
             #endregion
 
+            #region Question08
+
+            string[] Arr = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+
+            var results = Arr.Where(s => s.Length > 1 && s[1] == 'i').Reverse();
+
+            foreach (var Item in results ?? Enumerable.Empty<object>())
+                Console.WriteLine(Item);
+
+            #endregion
+
             #endregion
         }
     }
