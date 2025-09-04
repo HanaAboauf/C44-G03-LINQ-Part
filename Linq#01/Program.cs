@@ -16,8 +16,16 @@ namespace Linq_01
 
             #endregion
 
+            #region Question02
 
-                #endregion
+            //var results = ProductList?.Where(p => p.UnitsInStock > 0 && p.UnitPrice > 3.00M);
+
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
+            #endregion
+
+
+            #endregion
         }
     }
 }
