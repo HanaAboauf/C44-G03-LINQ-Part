@@ -178,7 +178,23 @@ namespace Linq_01
 
             #endregion
 
+            #region Question05
 
+            //int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };
+
+            //int[] numbersB = { 1, 3, 5, 7, 8 };
+
+            //var result= numbersA.SelectMany(a=>numbersB.Where(b=>a<b),(a,b)=>$"{a} is less than {b}");
+
+            //foreach (var item in result)
+            
+            //    Console.WriteLine(item);
+                
+            
+
+
+
+            #endregion
 
             #endregion
         }
