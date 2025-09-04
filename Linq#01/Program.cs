@@ -36,6 +36,23 @@ namespace Linq_01
 
 
             #endregion
+
+            #region LINQ - Ordering Operators
+
+            #region Question01
+
+        
+
+            //var results= from p in ProductList
+            //             orderby p.ProductName
+            //             select p;
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
+
+
+            #endregion
+
+            #endregion
         }
     }
 }
