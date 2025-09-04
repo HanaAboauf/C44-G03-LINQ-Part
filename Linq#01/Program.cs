@@ -139,6 +139,20 @@ namespace Linq_01
 
             #endregion
 
+            #region Question02
+
+            //String[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
+
+            //var results = words.Select(s =>new
+            //{
+            //    lower= s.ToLower(),
+            //    upper= s.ToUpper()
+            //});
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
+
+            #endregion
+
             #endregion
         }
     }
