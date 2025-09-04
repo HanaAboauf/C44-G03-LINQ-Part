@@ -167,6 +167,19 @@ namespace Linq_01
 
             #endregion
 
+            #region Question04
+
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var results = Arr.Select((n, i) => n==i);
+
+            //foreach (var Item in results)
+            //    Console.WriteLine(Item);
+
+            #endregion
+
+
+
             #endregion
         }
     }
