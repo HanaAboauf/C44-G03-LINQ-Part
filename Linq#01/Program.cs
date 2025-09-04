@@ -62,6 +62,17 @@ namespace Linq_01
             //    Console.WriteLine(Item);
             #endregion
 
+            #region Question03
+
+            //var results = from p in ProductList
+            //              orderby p.UnitsInStock descending
+            //                select p;
+
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
+
+            #endregion
+
             #endregion
         }
     }
