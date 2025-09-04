@@ -116,12 +116,26 @@ namespace Linq_01
 
             #region Question08
 
-            string[] Arr = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+            //string[] Arr = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 
-            var results = Arr.Where(s => s.Length > 1 && s[1] == 'i').Reverse();
+            //var results = Arr.Where(s => s.Length > 1 && s[1] == 'i').Reverse();
 
-            foreach (var Item in results ?? Enumerable.Empty<object>())
-                Console.WriteLine(Item);
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
+
+            #endregion
+
+            #endregion
+
+            #region LINQ – Transformation Operators
+
+            #region Question01
+
+            //var results = from p in ProductList
+            //              select p.ProductName;
+
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
 
             #endregion
 
