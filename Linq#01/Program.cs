@@ -24,6 +24,16 @@ namespace Linq_01
             //    Console.WriteLine(Item);
             #endregion
 
+            #region Question03
+
+            //String[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            //var results = Arr.Where((s,i)=>s.Length<i);
+            //foreach (var Item in results ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(Item);
+
+            #endregion
+
 
             #endregion
         }
