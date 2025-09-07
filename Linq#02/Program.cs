@@ -144,6 +144,21 @@ namespace Linq_02
 
             #endregion
 
+            #region Question08
+
+            //Get the average length of the words in dictionary_english.txt
+
+            //string filePath = "dictionary_english.txt";
+
+            //string[] words = File.ReadAllLines(filePath);
+
+
+            //var result = words.Average(x => x.Length);
+
+            //Console.WriteLine(result);
+
+            #endregion
+
 
 
             #endregion
