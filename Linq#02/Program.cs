@@ -76,6 +76,20 @@ namespace Linq_02
 
             #endregion
 
+            #region Question03
+
+            //Return a list of categories and how many products each has
+
+            //var result = ProductList?.GroupBy(p => p.Category).Select(g => new{
+            //                                                                 Category = g.Key,
+            //                                                                 ProductCount = g.Count()
+            //                                                          });
+
+            //foreach (var item in result ?? Enumerable.Empty<object>())
+            //    Console.WriteLine(item);
+
+            #endregion
+
 
 
             #endregion
