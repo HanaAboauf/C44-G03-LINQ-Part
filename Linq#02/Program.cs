@@ -202,6 +202,24 @@ namespace Linq_02
 
             #endregion
 
+            #region Question12
+
+            //Get the most expensive price among each category's products.
+
+
+            //var result = ProductList?.GroupBy(p => p.Category).Select(g => new
+            //{
+            //    category=g.Key,
+            //    price=g.Max(p=>p.UnitPrice),
+            //});
+            //foreach (var item in result??Enumerable.Empty<object>())
+            //    Console.WriteLine(item);
+            
+
+
+
+            #endregion
+
 
 
             #endregion
