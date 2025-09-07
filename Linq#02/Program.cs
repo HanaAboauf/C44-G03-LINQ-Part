@@ -169,6 +169,18 @@ namespace Linq_02
 
             #endregion
 
+            #region Question10
+
+            //Get the cheapest price among each category's products
+
+            //var result = ProductList?.GroupBy(p => p.Category).Select(g => new
+            //{
+            //    Category = g.Key,
+            //    CheapestPrice = g.Min(p => p.UnitPrice)
+            //}).Min(c=>c.CheapestPrice);
+            //Console.WriteLine(result);
+            #endregion
+
 
 
             #endregion
