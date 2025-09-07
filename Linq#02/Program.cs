@@ -214,8 +214,29 @@ namespace Linq_02
             //});
             //foreach (var item in result??Enumerable.Empty<object>())
             //    Console.WriteLine(item);
-            
 
+
+
+
+            #endregion
+
+            #region Question13
+
+            //var result = ProductList?.GroupBy(p => p.Category).SelectMany(g =>
+            //{
+            //    var maxPrice = g.Max(p => p.UnitPrice);
+            //    return g.Where(p => p.UnitPrice == maxPrice)
+            //            .Select(p => new
+            //            {
+            //                Category = g.Key,
+            //                ProductName = p.ProductName,
+            //                UnitPrice = p.UnitPrice
+            //            });
+            //});
+
+            //foreach (var item in result??Enumerable.Empty<object>())
+            //    Console.WriteLine(item);
+          
 
 
             #endregion
