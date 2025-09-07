@@ -236,10 +236,26 @@ namespace Linq_02
 
             //foreach (var item in result??Enumerable.Empty<object>())
             //    Console.WriteLine(item);
-          
+
 
 
             #endregion
+
+            #region Question14
+
+            //Get the average price of each category's products.
+
+            //var result = ProductList?.GroupBy(p => p.Category).Select(g => new
+            //{
+            //    category=g.Key,
+            //    avgPrice=g.Average(p=>p.UnitPrice),
+            //});
+
+            //foreach (var item in result??Enumerable.Empty<object>())
+            //    Console.WriteLine(item);
+            
+            #endregion
+
 
 
 
