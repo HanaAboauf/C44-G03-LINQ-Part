@@ -116,6 +116,19 @@ namespace Linq_02
 
             #endregion
 
+            #region Question06
+            //Get the length of the shortest word in dictionary_english.txt
+
+            //string filePath = "dictionary_english.txt";
+
+            //string[] words = File.ReadAllLines(filePath);
+
+            //var result = words.Min(x => x.Length);
+
+            //Console.WriteLine(result);
+
+            #endregion
+
 
 
             #endregion
