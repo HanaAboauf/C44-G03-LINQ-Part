@@ -159,6 +159,16 @@ namespace Linq_02
 
             #endregion
 
+            #region Question09
+
+            //Get the total units in stock for each product category.
+
+            //var result = ProductList?.GroupBy(p=>p.Category).Sum(g=>g.Count());
+
+            //Console.WriteLine(result);
+
+            #endregion
+
 
 
             #endregion
