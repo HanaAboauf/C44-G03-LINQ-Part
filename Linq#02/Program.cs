@@ -59,6 +59,23 @@ namespace Linq_02
             //Console.WriteLine(result); 
             #endregion
 
+            #region Question02
+
+            //Return a list of customers and how many orders each has.
+
+            //var result= CustomerList?.Select(c=> new
+            //{
+            //    customerId=c.CustomerID,
+            //    noOfOrders=c.Orders.Count()
+            //}
+
+            //);
+
+            //foreach (var item in result??Enumerable.Empty<object>())
+            //    Console.WriteLine(item);
+
+            #endregion
+
 
 
             #endregion
