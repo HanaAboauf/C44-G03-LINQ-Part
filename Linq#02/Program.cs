@@ -117,6 +117,7 @@ namespace Linq_02
             #endregion
 
             #region Question06
+
             //Get the length of the shortest word in dictionary_english.txt
 
             //string filePath = "dictionary_english.txt";
@@ -124,6 +125,20 @@ namespace Linq_02
             //string[] words = File.ReadAllLines(filePath);
 
             //var result = words.Min(x => x.Length);
+
+            //Console.WriteLine(result);
+
+            #endregion
+
+            #region Question07
+
+            //Get the length of the longest word in dictionary_english.txt 
+
+            //string filePath = "dictionary_english.txt";
+
+            //string[] words = File.ReadAllLines(filePath);
+
+            //var result = words.Max(x => x.Length);
 
             //Console.WriteLine(result);
 
