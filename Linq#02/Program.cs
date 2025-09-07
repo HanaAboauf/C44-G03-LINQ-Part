@@ -253,11 +253,27 @@ namespace Linq_02
 
             //foreach (var item in result??Enumerable.Empty<object>())
             //    Console.WriteLine(item);
-            
+
             #endregion
 
 
 
+
+            #endregion
+
+            #region LINQ - Set Operators
+
+            #region Question01
+
+            //Find the unique Category names from Product List
+
+            //var result=ProductList?.Select(p=>p.Category).Distinct();
+
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+
+            #endregion
 
             #endregion
         }
