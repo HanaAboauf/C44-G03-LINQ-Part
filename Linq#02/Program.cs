@@ -181,6 +181,27 @@ namespace Linq_02
             //Console.WriteLine(result);
             #endregion
 
+            #region Question11
+
+            //Get the products with the cheapest price in each category (Use Let)
+
+            //var result= from p in ProductList
+            //            group p by p.Category into g
+            //            let cheapestPrice=g.Min(p=>p.UnitPrice)
+            //            from prod in g
+            //            where prod.UnitPrice == cheapestPrice
+            //            select new
+            //            {
+            //                Category = g.Key,
+            //                ProductName = prod.ProductName,
+            //                UnitPrice = prod.UnitPrice
+            //            };
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+
+            #endregion
+
 
 
             #endregion
