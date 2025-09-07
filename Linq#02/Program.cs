@@ -102,6 +102,20 @@ namespace Linq_02
 
             #endregion
 
+            #region Question05
+
+            //string filePath = "dictionary_english.txt";
+
+            //string[] words = File.ReadAllLines(filePath);
+
+            //// Get the total number of characters of all words in dictionary_english.txt 
+
+            //var result=words.Sum(w=>w.Length);
+            //Console.WriteLine(result);
+
+
+            #endregion
+
 
 
             #endregion
