@@ -344,6 +344,22 @@ namespace Linq_02
 
 
             #endregion
+
+            #region Question02
+
+            //Get all but the first 2 orders from customers in Washington.
+
+            //var result=CustomerList.Where(c=>c.Region=="WA").SelectMany(c=>c.Orders).Where(o=>o!=null).Skip(2);
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item.OrderID);
+            //}
+
+
+
+
+            #endregion
             #endregion
         }
     }
