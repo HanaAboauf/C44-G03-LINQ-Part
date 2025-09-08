@@ -275,6 +275,16 @@ namespace Linq_02
 
             #endregion
 
+            #region Question02
+
+            //Produce a Sequence containing the unique first letter from both product and customer names.
+
+            //var result = ProductList?.Select(p => p.ProductName[0]).Union(CustomerList.Select(c => c.CustomerName[0]));
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+            
+            #endregion
+
             #endregion
         }
     }
