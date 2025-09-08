@@ -518,6 +518,27 @@ namespace Linq_02
 
             #endregion
 
+            #region Question03
+
+            //Use Group By with a custom comparer that matches words that are consists of the same Characters Together
+
+            //string[] Arr = { "from", "salt", "earn", " last", "near", "form" };
+
+            //var result = Arr.GroupBy(word => new string(word.Trim().OrderBy(c => c).ToArray()) );
+
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine($"Group: {group.Key}");
+            //    foreach (var word in group)
+            //    {
+            //        Console.WriteLine($"   {word}");
+            //    }
+            //}
+
+
+
+            #endregion
+
             #endregion
         }
     }
