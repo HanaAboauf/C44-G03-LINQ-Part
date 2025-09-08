@@ -282,6 +282,18 @@ namespace Linq_02
             //var result = ProductList?.Select(p => p.ProductName[0]).Union(CustomerList.Select(c => c.CustomerName[0]));
             //foreach (var item in result)
             //    Console.WriteLine(item);
+
+            #endregion
+
+            #region Question03
+
+            //Create one sequence that contains the common first letter from both product and customer names.
+
+            //var result = ProductList?.Select(p => p.ProductName[0]).Intersect(CustomerList.Select(c => c.CustomerName[0]));
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+               
             
             #endregion
 
