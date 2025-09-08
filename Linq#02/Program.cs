@@ -293,8 +293,19 @@ namespace Linq_02
 
             //foreach (var item in result)
             //    Console.WriteLine(item);
-               
-            
+
+
+            #endregion
+
+            #region Question04
+
+            //Create one sequence that contains the first letters of product names that are not also first letters of customer names.
+
+            //var result = ProductList?.Select(p => p.ProductName[0]).Except(CustomerList.Select(c => c.CustomerName[0]));
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+
             #endregion
 
             #endregion
