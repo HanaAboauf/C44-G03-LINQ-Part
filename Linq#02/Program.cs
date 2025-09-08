@@ -383,11 +383,23 @@ namespace Linq_02
 
             //foreach (var item in result)
             //    Console.WriteLine(item);
-            
+
 
 
             #endregion
 
+            #region Question05
+
+            // Get the elements of the array starting from the first element less than its position.
+
+            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            var result = numbers.SkipWhile((n, i) => n > i);
+
+            foreach ( var n in numbers) 
+                Console.WriteLine(n);
+
+            #endregion
 
             #endregion
         }
