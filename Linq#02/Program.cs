@@ -1,4 +1,5 @@
-﻿using static Linq_02.Data.ListGenerator;
+﻿using System.Collections.Generic;
+using static Linq_02.Data.ListGenerator;
 using static Linq_02.Data.Order;
 
 namespace Linq_02
@@ -461,6 +462,32 @@ namespace Linq_02
 
             #endregion
 
+
+            #endregion
+
+            #region LINQ – Grouping Operators
+
+            #region Question01
+            //Use group by to partition a list of numbers by their remainder when divided by 5
+
+            //List<int> numbers = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+
+            //var result=numbers.GroupBy(n => n % 5);
+
+            //int chunk = 0;
+
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine($"Numbers with reminder of {chunk++} when divided by 5:");
+            //    foreach (var num in group)
+            //    {
+            //        Console.WriteLine($"{num}");
+            //    }
+            //}
+
+
+
+            #endregion
 
             #endregion
         }
