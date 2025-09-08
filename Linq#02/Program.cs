@@ -360,6 +360,20 @@ namespace Linq_02
 
 
             #endregion
+
+            #region Question03
+            // Return elements starting from the beginning of the array until a number is hit that is less than its position in the array.
+
+            //int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var result = numbers.TakeWhile((num,i)=>num>i);
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+
+            #endregion
+
+   
             #endregion
         }
     }
