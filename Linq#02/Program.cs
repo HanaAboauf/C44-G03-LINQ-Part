@@ -373,7 +373,22 @@ namespace Linq_02
 
             #endregion
 
-   
+            #region Question04
+
+            //Get the elements of the array starting from the first element divisible by 3.
+
+            //int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var result=numbers.SkipWhile(n => n % 3 != 0); 
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+            
+
+
+            #endregion
+
+
             #endregion
         }
     }
