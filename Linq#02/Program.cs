@@ -420,6 +420,28 @@ namespace Linq_02
 
             #endregion
 
+            #region Question02
+            //Return a grouped list of products only for categories that have at least one product that is out of stock.
+
+       //     var result = ProductList?
+       //.Where(p => p.UnitsInStock == 0) 
+       //.GroupBy(p => p.Category, p => p.ProductName);
+
+       //     foreach (var group in result)
+       //     {
+       //         Console.WriteLine($"Category: {group.Key}");
+       //         foreach (var productName in group)
+       //         {
+       //             Console.WriteLine($"   {productName}");
+       //         }
+       //     }
+
+
+
+
+            #endregion
+
+
 
             #endregion
         }
