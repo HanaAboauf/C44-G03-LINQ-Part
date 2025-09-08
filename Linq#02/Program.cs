@@ -1,6 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.Intrinsics.X86;
+using System.Text.RegularExpressions;
 using static Linq_02.Data.ListGenerator;
 using static Linq_02.Data.Order;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Linq_02
 {
@@ -482,6 +485,32 @@ namespace Linq_02
             //    foreach (var num in group)
             //    {
             //        Console.WriteLine($"{num}");
+            //    }
+            //}
+
+
+
+            #endregion
+
+            #region Question02
+
+            //Uses group by to partition a list of words by their first letter.
+            //Use dictionary_english.txt for Input
+
+            //string filePath = "dictionary_english.txt";
+
+            //string[] words = File.ReadAllLines(filePath);
+
+            //var result = words.GroupBy(w => char.ToUpper(w[0]));
+
+            //int chunk=1;
+
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine($"Group: '{chunk++}':");
+            //    foreach (var word in group)
+            //    {
+            //        Console.WriteLine($"{word}");
             //    }
             //}
 
