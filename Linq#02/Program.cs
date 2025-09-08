@@ -423,24 +423,43 @@ namespace Linq_02
             #region Question02
             //Return a grouped list of products only for categories that have at least one product that is out of stock.
 
-       //     var result = ProductList?
-       //.Where(p => p.UnitsInStock == 0) 
-       //.GroupBy(p => p.Category, p => p.ProductName);
+            //     var result = ProductList?
+            //.Where(p => p.UnitsInStock == 0) 
+            //.GroupBy(p => p.Category, p => p.ProductName);
 
-       //     foreach (var group in result)
-       //     {
-       //         Console.WriteLine($"Category: {group.Key}");
-       //         foreach (var productName in group)
-       //         {
-       //             Console.WriteLine($"   {productName}");
-       //         }
-       //     }
+            //     foreach (var group in result)
+            //     {
+            //         Console.WriteLine($"Category: {group.Key}");
+            //         foreach (var productName in group)
+            //         {
+            //             Console.WriteLine($"   {productName}");
+            //         }
+            //     }
 
 
 
 
             #endregion
 
+            #region Question03
+
+            //Return a grouped list of products only for categories that have all of their products in stock.
+
+            //     var result = ProductList?
+            //.Where(p => p.UnitsInStock != 0) 
+            //.GroupBy(p => p.Category, p => p.ProductName);
+
+            //     foreach (var group in result)
+            //     {
+            //         Console.WriteLine($"Category: {group.Key}");
+            //         foreach (var productName in group)
+            //         {
+            //             Console.WriteLine($"   {productName}");
+            //         }
+            //     }
+
+
+            #endregion
 
 
             #endregion
